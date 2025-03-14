@@ -1,68 +1,81 @@
-li{
-    list-style-type:none;
+li {
+    list-style-type: none;
 }
+
 a,
-a:hover{
+a:hover {
     text-decoration: none;
 }
-.whole-header{
-    color:aliceblue;
-    background-color:rgb(48,48,48);
-    position:fixed;
-    z-index:1;
-    text-align:center;
-    background-image:linear-gradient(to left top, #00b75f,#00b585,#00b1a3,#00abb6,#00a3be,#0095bd,#0086ba, #0076b4, #005ca6, #004195, #002681, #000268);
+
+.whole-header {
+    color: aliceblue;
+    background-color: rgb(48, 48, 48);
+    position: fixed;
+    z-index: 1;
+    text-align: center;
+    background-image: linear-gradient(to left top, #00b75f, #00b585, #00b1a3, #00abb6, #00a3be, #0095bd, #0086ba, #0076b4, #005ca6, #004195, #002681, #000268);
 }
-.navbarText{
-    color:#000000;
+
+.navbarText {
+    color: #000000;
     padding: 10% 15%;
 }
-.navbar{
-    margin-top:5%;
-    text-align:left;
+
+.navbar {
+    margin-top: 5%;
+    text-align: left;
 }
-.liclsNavBar{
-    text-align:center;
-    padding:8% 5%;
-    margin:5% 0;
-    border-bottom-left-radius:10rem;
+
+.liClsNavBar {
+    text-align: center;
+    padding: 8% 5%;
+    margin: 5% 0;
+    border-bottom-left-radius: 10rem;
     border-top-right-radius: 10rem;
     background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
-    cursor:pointer;
+    cursor: pointer;
 }
-a{
-    font-size:large;
-    font-family:'Bree Serif';
-}
-a:hover{
-    color:yellow;
-}
-.liclsNavBar:hover{
-    box-shadow:5px 2px 20px whitesmoke;
-}
-.navbarBottom{
-    margin-bottom:100%;
-}
-.user{
-    text-align:center;
-    margin-right:15%;
-    font-family:'Secular One';
-}
-.name{
-    font-family:'Pacifico';
-    margin-top:15%;
-    color:rgb(255,198,77);
-    transition:transform .2s;
-}
-.name:hover{
-    -ms-transform:scale(1.05);
-    -webkit-transform:scale(1.05);
-    transform:scale(1.35);
-}
-.gra-img{
-    background-image:url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
 
+a {
+    font-size: large;
+    font-family: 'Bree Serif';
 }
+
+a:hover {
+    color: yellow;
+}
+
+.liClsNavBar:hover {
+    box-shadow: 5px 2px 20px whitesmoke;
+}
+
+.navbarBottom {
+    margin-bottom: 100%;
+}
+
+.user {
+    text-align: center;
+    margin-right: 15%;
+    font-family: 'Secular One';
+}
+
+.name {
+    font-family: 'Pacifico';
+    margin-top: 15%;
+    color: rgb(255, 198, 77);
+    transition: transform .2s;
+}
+
+.name:hover {
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.35);
+}
+
+.gra-img {
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+}
+
 @media screen and (min-width: 1024px) {
     #Toggler {
         display: none;
